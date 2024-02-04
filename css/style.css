@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: #CFDEE7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Styles */
+h1 {
+    color: #0A369D;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    width: 100vh;
+    margin: 20px;
+    padding: 20px;
+    background-color: #92B4F4;
+    border-radius: 10px;
+}
+
+/* Button Styles */
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #4472CA;
+    color: #CFDEE7;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Playback and Random Buttons Styles */
+#playback, #random {
+    background-color: #5E7CE2;
+}
+
+/* Story Display Styles */
+#story {
+    height: 12px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #CFDEE7;
+    border: 2px solid #0A369D;
+    border-radius: 5px;
+}
+/* student info button styles */
+#studentInfo {
+    background-color: #5E7CE2;
+}
+
+/* Paragraph Styles */
+p {
+    margin: 0;
+}
